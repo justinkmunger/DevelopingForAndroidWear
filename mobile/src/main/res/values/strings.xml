@@ -4,8 +4,6 @@
     <string name="app_name">Developing For Android Wear</string>
     <string-array name="app_sections">
         <item>Notifications</item>
-        <item>Applications</item>
-        <item>Syncing</item>
     </string-array>
     <string-array name="notification_options">
         <item>Bare-bones notification</item>

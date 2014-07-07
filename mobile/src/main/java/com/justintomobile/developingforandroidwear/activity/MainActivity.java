@@ -14,9 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.justintomobile.developingforandroidwear.R;
-import com.justintomobile.developingforandroidwear.fragment.ApplicationFragment;
 import com.justintomobile.developingforandroidwear.fragment.NotificationFragment;
-import com.justintomobile.developingforandroidwear.fragment.SyncingFragment;
 
 
 public class MainActivity extends Activity {
@@ -107,10 +105,12 @@ public class MainActivity extends Activity {
                 fragment = new NotificationFragment();
                 break;
             case 1:
-                fragment = new ApplicationFragment();
+                // TODO: Coming soon
+                // fragment = new ApplicationFragment();
                 break;
             case 2:
-                fragment = new SyncingFragment();
+                // TODO: Coming soon
+                //fragment = new SyncingFragment();
                 break;
             default:
                 break;
