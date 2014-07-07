@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Developing For Android Wear</string>
+    <string-array name="app_sections">
+        <item>Notifications</item>
+        <item>Applications</item>
+        <item>Syncing</item>
+    </string-array>
+    <string-array name="notification_options">
+        <item>Bare-bones notification</item>
+        <item>Basic notification</item>
+        <item>Notification with large icon</item>
+        <item>Notification with big text style</item>
+        <item>Notification with content intent</item>
+        <item>Notification with action button</item>
+        <item>Notification with action button and content intent</item>
+        <item>Notification with wearable-only action button</item>
+        <item>Notification with wearable-only settings (hide app icon)</item>
+        <item>Notification with voice reply action</item>
+        <item>Notification with multiple pages</item>
+        <item>Stacked notifications</item>
+        <item>Stacked notifications with inbox-style summary text</item>
+    </string-array>
+    <string name="long_string">GDG Chicago is a Google Developer Group which seeks to bring together all individuals interested in or developing with the various Google technology products (such as App Engine, Chrome, Android, Google Glass, and Chromecast) and Google technology APIs (such as YouTube, Maps, Google+, and Google Wallet). We also welcome those who work with related technologies who want to join in with us and share their experiences with the Google developer community.</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="notification_title_first_page">Content Title</string>
+    <string name="notification_content_text">Content Text</string>
+    <string name="voice_input">Voice input</string>
+    <string name="activity_voiceinput_title">Voice Input</string>
+    <string name="activity_contentintent_title">Content Intent</string>
+    <string name="notification_text_first_page">First page</string>
+    <string name="notification_title_second_page">Second page</string>
+    <string name="notification_text_second_page">Just a short amount of text</string>
+    <string name="notification_text_third_page">This is a much longer amount of text. This text spans several lines of the display. You can scroll through this text and see all of the content. Here is some more text that you\'re able to scroll through.</string>
+    <string name="notification_title_third_page">Third page</string>
+    <string name="notification_title_first_notification_in_stack">First Notification</string>
+    <string name="notification_title_second_notification_in_stack">Second Notification</string>
+    <string name="notification_title_third_notification_in_stack">Third Notification</string>
+    <string name="notification_text_first_notification_in_stack">This is the text for the first notification</string>
+    <string name="notification_text_second_notification_in_stack">This is the text for the second notification</string>
+    <string name="notification_text_third_notification_in_stack">This is the text for the third notification</string>
+    <string name="notification_title_stack_summary_three_notifications">3 notifications</string>
+    <string name="notification_text_summary_text">justinkmunger@gmail.com</string>
+    <string name="notification_action_button_title_meetup">Go to meetup.com</string>
+</resources>
