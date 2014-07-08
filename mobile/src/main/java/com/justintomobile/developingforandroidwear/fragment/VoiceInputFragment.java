@@ -19,7 +19,7 @@ public class VoiceInputFragment extends Fragment {
 
     private TextView mVoiceInputTextView;
 
-    private VoiceInputFragment() {
+    public VoiceInputFragment() {
     }
 
     public static VoiceInputFragment newInstance(String voiceInputText) {
