@@ -285,13 +285,17 @@ public class NotificationFragment extends Fragment {
                         getString(R.string.notification_action_button_title_meetup),
                         meetupPendingIntent);
 
+        NotificationCompat.WearableExtender wearableExtender =
+                new NotificationCompat.WearableExtender();
+        wearableExtender.addAction(action);
+
         Notification notification =
                 new NotificationCompat.Builder(getActivity())
                         .setSmallIcon(R.drawable.notification_icon)
                         .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.notification_background))
                         .setContentTitle(getString(R.string.notification_title_first_page))
                         .setContentText(getString(R.string.notification_content_text))
-                        .extend(new NotificationCompat.WearableExtender().addAction(action))
+                        .extend(wearableExtender)
                         .build();
 
         return notification;
