@@ -318,8 +318,6 @@ public class NotificationFragment extends Fragment {
     }
 
     private Notification buildNotificationVoiceReplyAction() {
-        String replyLabel = getString(R.string.voice_input);
-
         Intent voiceInputIntent = new Intent(getActivity(), VoiceInputActivity.class);
         voiceInputIntent.putExtra(VoiceInputActivity.EXTRA_NOTIFICATION_ID, ID_NOTIFICATION_VOICE_REPLY_ACTION);
         PendingIntent voiceInputPendingIntent =
@@ -329,6 +327,7 @@ public class NotificationFragment extends Fragment {
                         voiceInputIntent,
                         PendingIntent.FLAG_CANCEL_CURRENT);
 
+        String replyLabel = getString(R.string.voice_input);
         RemoteInput remoteInput = new RemoteInput.Builder(VoiceInputActivity.EXTRA_VOICE_REPLY)
                 .setLabel(replyLabel)
                 .build();
