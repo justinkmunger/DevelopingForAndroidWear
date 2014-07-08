@@ -149,8 +149,6 @@ public class NotificationFragment extends Fragment {
                         .setSmallIcon(R.drawable.notification_icon)
                         .build();
 
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
-
         return notification;
     }
 
@@ -161,8 +159,6 @@ public class NotificationFragment extends Fragment {
                         .setContentTitle(getString(R.string.notification_title_first_page))
                         .setContentText(getString(R.string.notification_content_text))
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
@@ -175,8 +171,6 @@ public class NotificationFragment extends Fragment {
                         .setContentTitle(getString(R.string.notification_title_first_page))
                         .setContentText(getString(R.string.notification_content_text))
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
@@ -194,8 +188,6 @@ public class NotificationFragment extends Fragment {
                         .setContentTitle(getString(R.string.notification_title_first_page))
                         .setStyle(bigTextStyle)
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
@@ -243,8 +235,6 @@ public class NotificationFragment extends Fragment {
                         .setContentText(getString(R.string.notification_content_text))
                         .addAction(action)
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
@@ -304,8 +294,6 @@ public class NotificationFragment extends Fragment {
                         .extend(new NotificationCompat.WearableExtender().addAction(action))
                         .build();
 
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
-
         return notification;
     }
 
@@ -321,8 +309,6 @@ public class NotificationFragment extends Fragment {
                         .setContentText(getString(R.string.notification_content_text))
                         .extend(extender)
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
@@ -360,8 +346,6 @@ public class NotificationFragment extends Fragment {
                         .extend(new NotificationCompat.WearableExtender().addAction(action))
                         .build();
 
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
-
         return notification;
     }
 
@@ -396,8 +380,6 @@ public class NotificationFragment extends Fragment {
                         .extend(notificationBuilder)
                         .build();
 
-        threePageNotification.flags = Notification.FLAG_AUTO_CANCEL;
-
         return threePageNotification;
     }
 
@@ -410,8 +392,6 @@ public class NotificationFragment extends Fragment {
                         .setContentText(getString(R.string.notification_text_first_notification_in_stack))
                         .setGroup(STACKED_NOTIFICATION_GROUP)
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
@@ -426,8 +406,6 @@ public class NotificationFragment extends Fragment {
                         .setGroup(STACKED_NOTIFICATION_GROUP)
                         .build();
 
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
-
         return notification;
     }
 
@@ -440,8 +418,6 @@ public class NotificationFragment extends Fragment {
                         .setContentText(getString(R.string.notification_text_third_notification_in_stack))
                         .setGroup(STACKED_NOTIFICATION_GROUP)
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
@@ -482,8 +458,6 @@ public class NotificationFragment extends Fragment {
                         .setGroup(STACKED_NOTIFICATION_GROUP)
                         .setGroupSummary(true)
                         .build();
-
-        notification.flags = Notification.FLAG_AUTO_CANCEL;
 
         return notification;
     }
