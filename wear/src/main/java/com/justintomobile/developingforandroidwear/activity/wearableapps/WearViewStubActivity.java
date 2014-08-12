@@ -1,23 +1,21 @@
-package com.justintomobile.developingforandroidwear;
+package com.justintomobile.developingforandroidwear.activity.wearableapps;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
-import android.widget.TextView;
 
-public class MyActivity extends Activity {
+import com.justintomobile.developingforandroidwear.R;
 
-    private TextView mTextView;
-
+public class WearViewStubActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
-        final WatchViewStub stub = (WatchViewStub) findViewById(R.id.watch_view_stub);
+        setContentView(R.layout.activity_wearviewstub);
+
+        final WatchViewStub stub = (WatchViewStub) findViewById(R.id.watchviewstub_stub);
         stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
-                mTextView = (TextView) stub.findViewById(R.id.text);
             }
         });
     }

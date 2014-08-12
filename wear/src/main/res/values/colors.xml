@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wearablelistitem_bluecircle">#2878ff</color>
+    <color name="wearablelistitem_graycircle">#c1c1c1</color>
+    <color name="wearablelistitem_textcolor">#434343</color>
+</resources>

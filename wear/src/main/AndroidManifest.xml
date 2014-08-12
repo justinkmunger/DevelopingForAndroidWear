@@ -8,16 +8,85 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.DeviceDefault">
+        android:theme="@android:style/Theme.DeviceDefault.Light">
         <activity
-            android:name=".MyActivity"
-            android:label="@string/app_name">
+            android:name="android.support.wearable.activity.ConfirmationActivity" />
+        <activity
+            android:name=".activity.wearableapps.BoxInsetLayoutActivity"
+            android:label="Box Inset Layout">
+        </activity>
+        <activity
+            android:name=".activity.wearableapps.ConfirmationTestActivity"
+            android:label="Confirmation Test">
+        </activity>
+        <activity
+            android:name=".activity.wearableapps.DismissOverlayViewActivity"
+            android:label="DismissOverlayView"
+            android:theme="@style/WearTheme" />
+        <activity
+            android:name=".activity.wearableapps.FragmentGridViewPagerActivity"
+            android:label="Fragment GridView Pager" />
+        <activity
+            android:name=".activity.wearableapps.GridViewPagerActivity"
+            android:label="GridView Pager"/>
+        <activity
+            android:name=".activity.wearableapps.MyInsetActivity"
+            android:label="InsetActivity" />
+        <activity
+            android:name=".activity.NotificationsActivity"
+            android:label="Notifications">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.WearableAppsActivity"
+            android:label="Wearable Apps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.wearableapps.WearViewStubActivity"
+            android:label="WearViewStub" />
+        <activity
+            android:name=".activity.notifications.DisplayIntentActivity"
+            android:exported="true"
+            android:allowEmbedded="true"
+            android:label="@string/app_name"
+            android:taskAffinity="" />
+        <activity
+            android:name=".activity.notifications.XSmallContentActivity"
+            android:exported="true"
+            android:allowEmbedded="true"
+            android:label="@string/app_name"
+            android:taskAffinity="" />
+        <activity
+            android:name=".activity.notifications.SmallContentActivity"
+            android:exported="true"
+            android:allowEmbedded="true"
+            android:label="@string/app_name"
+            android:taskAffinity="" />
+        <activity
+            android:name=".activity.notifications.MediumContentActivity"
+            android:exported="true"
+            android:allowEmbedded="true"
+            android:label="@string/app_name"
+            android:taskAffinity="" />
+        <activity
+            android:name=".activity.notifications.LargeContentActivity"
+            android:exported="true"
+            android:allowEmbedded="true"
+            android:label="@string/app_name"
+            android:taskAffinity="" />
+        <activity
+            android:name=".activity.notifications.FullScreenContentActivity"
+            android:exported="true"
+            android:allowEmbedded="true"
+            android:label="@string/app_name"
+            android:taskAffinity="" />
     </application>
 
 </manifest>
